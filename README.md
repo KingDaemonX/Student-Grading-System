@@ -11,7 +11,7 @@ To run this program, you need to have a C compiler installed on your machine, su
     1. Open a terminal or command prompt.
     2. Navigate to the directory containing the program files.
     3. Run the following command to compile the program:
-        Type **make build** to compile the program.
+        Type "make build" to compile the program.
         Press Enter.
 
 #### If Compilation Is Successful : 
@@ -80,5 +80,29 @@ John Doe (ID: 12345): 82.75
 Jane Smith (ID: 67890): 88.45
 
 ````
+
+## To Grade All Student Using The A - F Notation 
+
+### Important : Use The StudentGrader CLI application Tool
+This is the application built to take in student grade and return the A - F notation easing lecturers stress of manually getting student A - F grade
+
+### How To Compile Student A - F Grader System
+
+    1. Open a terminal or command prompt.
+    2. Navigate to the directory containing the program files.
+    3. Run the following command to compile the program:
+        Type "make build-grader" to compile the program.
+        Press Enter.
+
+#### If Compilation Is Successful : 
+
+To run the program, follow these steps:
+
+    Type "make run-grader" in the terminal.
+    Press Enter.
+
+- Enter Students numbers as entered while generating the score
+- Enter students grade 
+- press "Enter"
 
 Note: Before running the program, make sure you have the latest version of GCC installed on your computer. If you don't have GCC installed, you can download it from the official GCC website.
