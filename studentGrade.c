@@ -39,8 +39,15 @@ void printStudent(struct Student student) {
 
 int main() {
     struct Student students[MAX_STUDENTS];
-    int numStudents;
+    char courseName[50];
+    int numStudents,level;
 
+    printf("Enter Course Name : ");
+    scanf(" %49[^\n]", courseName);
+    
+    printf("Enter Student Level : ");
+    scanf(" %d", &level);
+    
     printf("Enter the number of students: ");
     scanf("%d", &numStudents);
 
@@ -77,7 +84,7 @@ int main() {
     }
 
     // Print out the information for each student
-    printf("\n\n===== STUDENT GRADES FOR %c =====\n\n", courseName);
+    printf("\n\n===== %s STUDENT GRADES FOR %d LEVEL =====\n\n", courseName, level);
     for (int i = 0; i < numStudents; i++) {
     printStudent(students[i]);
     }
