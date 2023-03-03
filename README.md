@@ -1,4 +1,4 @@
-# STUDENT GRADING SYSTEM CLI TOOL####
+# STUDENT GRADING SYSTEM CLI TOOL
 
 This program is designed to calculate the final grade for each student based on their assignment grade, class attendance, test grade, exam grade, and attendance grade. The program accepts student information such as name, student ID, assignment grade, class attended, number of classes, number of students, test grade, student exam grade, and attendance grade as inputs.
 
