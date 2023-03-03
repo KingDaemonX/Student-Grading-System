@@ -3,3 +3,9 @@ build :
 
 run : 
 	./studentGrade
+
+build-grader :
+	gcc -o studentGrader studentGrader.c
+
+run-grader : 
+	./studentGrader
